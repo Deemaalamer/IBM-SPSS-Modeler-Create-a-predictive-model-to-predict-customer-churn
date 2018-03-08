@@ -1,11 +1,12 @@
 # IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn
 Get experience with IBM SPSS Modeler by creating a decision-tree machine-learning model to evaluate the risk that a customer might leave your service. This is a set by step tutorial. Credits to this demo https://www.ibm.com/cloud/garage/demo/try-spss-modeler/
 
-#Duration: 15 minutes
-##Duration: 15 minutes
-###Duration: 15 minutes
+# Duration: 15 minutes
+## Duration: 15 minutes
+### Duration: 15 minutes
 **Duration: 15 minutes**
 
+<i>kfhjrkgtrljgot</i>
 In this tutorial demo, you use IBM SPSS Modeler to build a machine-learning model to predict which customers might leave your service.
 
 #Task 1: Inspect the data set
