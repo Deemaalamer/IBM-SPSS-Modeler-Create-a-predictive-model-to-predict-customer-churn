@@ -28,14 +28,21 @@ You have a data set with customer data and churn data. The data engineer merged 
 ## Task 4: Prepare the data set
 Get the data set ready for machine learning.
 
-**1. In the palette, click the Field Ops tab.
-2. Add the Type node to the canvas by clicking Type.
-3.Connect the Customers.xlsx node to the Type node by clicking Customers.xlsx.
-4. Click Type. From the menu that opens, click Edit.
-5. In the Type window, set the measurement level of the columns by clicking Read Values. On the ID row, click Input. From the menu that opens, click Record ID to change the role.
-6. Scroll to the CHURN row.
-7. Click CHURN and change the role from Input to Target. The CHURN row is used as the target to predict in your machine-learning model.
-8. Click Apply and then click OK.**
+**1. In the palette, click the Field Ops tab.**
+
+**2. Add the Type node to the canvas by clicking Type.**
+
+**3.Connect the Customers.xlsx node to the Type node by clicking Customers.xlsx.**
+
+**4. Click Type. From the menu that opens, click Edit.**
+
+**5. In the Type window, set the measurement level of the columns by clicking Read Values. On the ID row, click Input. From the menu that opens, click Record ID to change the role.**
+
+**6. Scroll to the CHURN row.**
+
+**7. Click CHURN and change the role from Input to Target. The CHURN row is used as the target to predict in your machine-learning model.**
+
+**8. Click Apply and then click OK.**
 
 ## Task 5: Train the model
 Train a C&R Tree model with your data set.
