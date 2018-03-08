@@ -31,8 +31,8 @@ dsx5&dsx6merge
 2. Scroll to inspect the right part of the data set. The last column, CHURN, contains data about whether a customer churned or not. Click OK to close Preview window.
 3. In the palette, click the Output tab.
 4. Add the Data Audit node to the canvas by clicking Data Audit.
-5. Connect the Data Audit node to the Customers.xlsx node by clicking Customers.xlsx. The Data Audit node is automatically renamed to "17 Fields."
-6. Click 17 Fields. From the menu that opens, click Run. You can review key statistics and metrics for the data set.
+5. Connect the Data Audit node to the Customers.xlsx node by clicking Customers.xlsx. The Data Audit node is automatically renamed to "21 Fields."
+6. Click 21 Fields. From the menu that opens, click Run. You can review key statistics and metrics for the data set.
 7. Click the Quality tab to review the data set quality. When you're finished, click OK to close the window.
 
 ![Inspect](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx7.gif)
@@ -42,7 +42,7 @@ Get the data set ready for machine learning.
 
 1. In the palette, click the Field Ops tab.
 2. Add the Type node to the canvas by clicking Type.
-3.Connect the Customers.xlsx node to the Type node by clicking Customers.xlsx.
+3. Connect the Customers.xlsx node to the Type node by clicking Customers.xlsx.
 4. Click Type. From the menu that opens, click Edit.
 5. In the Type window, set the measurement level of the columns by clicking Read Values. On the ID row, click Input. From the menu that opens, click Record ID to change the role.
 6. Scroll to the CHURN row.
@@ -60,11 +60,7 @@ Train a C&R Tree model with your data set.
 4. Click CHURN. From the menu that opens, click Run. The model is trained and a new CHURN node that looks like a golden nugget is added to the canvas.
 5. Click the CHURN golden nugget node. From the menu that opens, click Edit. Review the model and notice which features are important predictors. When you're finished, click OK to close the window.
 
-![Evaluate model](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx9.gif)
-
-
-![Evaluate model](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx10.gif)
-
+![Train model](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx9.gif)
 
 ## Task 6: Evaluate and visualize the model
 Evaluate the model performance and visualize the model by using a gain chart.
@@ -76,11 +72,13 @@ Evaluate the model performance and visualize the model by using a gain chart.
 5. Click the CHURN golden nugget node again. From the menu that opens, click Run from here. In the window that opens, review the results on the Table tab.
 6. Scroll to the right and notice that two columns were added to the data set: $R-CHURN and $RC-CHURN. The $R-CHURN column is the prediction column. The $RC-CHURN column is the confidence level column. Click OK to close the window.
 7. Review the model performance, or accuracy, in the Analysis table. Click OK to close the window.
+
+![Evaluate model](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx10.gif)
+
 8. In the palette, click the Graphs tab.
 9. Add the Evaluation node to the canvas by clicking Evaluation.
 10. Connect the Evaluation node to the CHURN golden nugget node by clicking the CHURN golden nugget node.
 11. Click R-CHURN. From the menu that opens, click Run. Review the gain chart. When you're finished, click OK to close the window.
-
 
 ![Evaluate model](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx11.gif)
 
