@@ -12,11 +12,17 @@ In this tutorial demo, you use IBM SPSS Modeler to build a machine-learning mode
 You have a data set with customer data and churn data. The data engineer merged both data sets into one set. The data set is waiting for inspection on the canvas. In this task, you inspect the data set by using IBM SPSS Modeler.
 
 **1. Click Customers.xlsx. From the menu that opens, click Preview. The first 10 records of the data set are shown.**
+
 **2. Scroll to inspect the right part of the data set. The last column, CHURN, contains data about whether a customer churned or not. Click OK to close Preview window.**
+
 **3. In the palette, click the Output tab.**
+
 **4. Add the Data Audit node to the canvas by clicking Data Audit.**
+
 **5. Connect the Data Audit node to the Customers.xlsx node by clicking Customers.xlsx. The Data Audit node is automatically renamed to "17 Fields."**
+
 **6. Click 17 Fields. From the menu that opens, click Run. You can review key statistics and metrics for the data set.**
+
 **7. Click the Quality tab to review the data set quality. When you're finished, click OK to close the window.**
 
 ## Task 4: Prepare the data set
