@@ -4,22 +4,43 @@ Get experience with IBM SPSS Modeler by creating a decision-tree machine-learnin
 ### Duration: 15 minutes
 In this tutorial demo, you use IBM SPSS Modeler to build a machine-learning model to predict which customers might leave your service.
 
-## Task 1: Login to IBM Data Science Experience
+## Task 1: Login to IBM Cloud
 
+1. Create Data Science Experince service
+
+To login visit this link datascience.ibm.com
 ![Login](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx1.PNG)
 
 ## Task 2: Create project and upload data set
 
+Once you have logged you you can go ahead and create a project.
+
+1. Scrol down the page and click on (+) New project icon.
+2. Name your project 'Predict customer churn', then hit Create
+
 ![Create project](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx2.gif)
+
+3. Download the data set ![Data set](www.google.com)
+4. Nagivate to the Assests tab, drag the data set file you donload it and drop it in the Load sidebar.
+5. Your data set should be loaded successfully shorty!
 
 ![Upload dataset](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx3.gif)
 
 ## Task 3: Create SPSS modele
 
+1. Same page as before, scroll down to the Modeler flows.
+2. Hit the (+) New flow icon
+3. Under the 'New' tab, name your modeler 'Predictive model', make sure you chose IBM SSPS Modeler Runtime. Then click Create.
+
 ![Create SPSS modele](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx4.gif)
 
 ## Task 3: Inspect the data set
 You have a data set with customer data and churn data. The data engineer merged both data sets into one set. The data set is waiting for inspection on the canvas. In this task, you inspect the data set by using IBM SPSS Modeler.
+
+1. Drag and drop your data set to the flow.
+2. Click Customers.xlsx. From the menu that opens, click Preview. The first 10 records of the data set are shown.
+3. Scroll to inspect the right part of the data set. The last column, CHURN, contains data about whether a customer churned or not. 
+4. Click OK to close Preview window.
 
 ![Inspect](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx5.gif)
 
@@ -27,15 +48,13 @@ You have a data set with customer data and churn data. The data engineer merged 
 
 dsx5&dsx6merge
 
-1. Click Customers.xlsx. From the menu that opens, click Preview. The first 10 records of the data set are shown.
-2. Scroll to inspect the right part of the data set. The last column, CHURN, contains data about whether a customer churned or not. Click OK to close Preview window.
 3. In the palette, click the Output tab.
 4. Add the Data Audit node to the canvas by clicking Data Audit.
 5. Connect the Data Audit node to the Customers.xlsx node by clicking Customers.xlsx. The Data Audit node is automatically renamed to "21 Fields."
 6. Click 21 Fields. From the menu that opens, click Run. You can review key statistics and metrics for the data set.
 7. Click the Quality tab to review the data set quality. When you're finished, click OK to close the window.
 
-![Inspect](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx7.gif)
+![Add data audit](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx7.gif)
 
 ## Task 4: Prepare the data set
 Get the data set ready for machine learning.
