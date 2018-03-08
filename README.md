@@ -56,7 +56,7 @@ Train a C&R Tree model with your data set.
 ## Task 4: Evaluate and visualize the model
 Evaluate the model performance and visualize the model by using a gain chart.
 
-**1. In the palette, click the Output tab.
+1. In the palette, click the Output tab.
 2. Add a Table node to the canvas by clicking Table.
 3. Add an Analysis node to the canvas by clicking Analysis.
 4. Connect the CHURN golden nugget node to the Table and Analysis nodes by clicking the CHURN golden nugget node.
@@ -66,7 +66,7 @@ Evaluate the model performance and visualize the model by using a gain chart.
 8. In the palette, click the Graphs tab.
 9. Add the Evaluation node to the canvas by clicking Evaluation.
 10. Connect the Evaluation node to the CHURN golden nugget node by clicking the CHURN golden nugget node.
-11. Click R-CHURN. From the menu that opens, click Run. Review the gain chart. When you're finished, click OK to close the window.**
+11. Click R-CHURN. From the menu that opens, click Run. Review the gain chart. When you're finished, click OK to close the window.
 
 ## Summary
 
