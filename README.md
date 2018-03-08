@@ -23,7 +23,7 @@ You have a data set with customer data and churn data. The data engineer merged 
 
 ![Inspect](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx5.gif)
 
-![Prepare data](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx6.gif)
+![Inspect](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx6.gif)
 
 dsx5&dsx6merge
 
@@ -34,6 +34,8 @@ dsx5&dsx6merge
 5. Connect the Data Audit node to the Customers.xlsx node by clicking Customers.xlsx. The Data Audit node is automatically renamed to "17 Fields."
 6. Click 17 Fields. From the menu that opens, click Run. You can review key statistics and metrics for the data set.
 7. Click the Quality tab to review the data set quality. When you're finished, click OK to close the window.
+
+![Inspect](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx7.gif)
 
 ## Task 4: Prepare the data set
 Get the data set ready for machine learning.
@@ -47,11 +49,10 @@ Get the data set ready for machine learning.
 7. Click CHURN and change the role from Input to Target. The CHURN row is used as the target to predict in your machine-learning model.
 8. Click Apply and then click OK.
 
-![Prepare data](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx7.gif)
+![Prepare data](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx8.gif)
 
 ## Task 5: Train the model
 Train a C&R Tree model with your data set.
-
 
 1. In the palette, click the Modeling tab.
 2. Add the C&R Tree node to the canvas by clicking C&R Tree.
@@ -59,17 +60,14 @@ Train a C&R Tree model with your data set.
 4. Click CHURN. From the menu that opens, click Run. The model is trained and a new CHURN node that looks like a golden nugget is added to the canvas.
 5. Click the CHURN golden nugget node. From the menu that opens, click Edit. Review the model and notice which features are important predictors. When you're finished, click OK to close the window.
 
-## Task 6: Evaluate and visualize the model
-Evaluate the model performance and visualize the model by using a gain chart.
-
-![Evaluate model](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx8.gif)
-
 ![Evaluate model](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx9.gif)
 
 
 ![Evaluate model](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx10.gif)
 
-![Evaluate model](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx11.gif)
+
+## Task 6: Evaluate and visualize the model
+Evaluate the model performance and visualize the model by using a gain chart.
 
 1. In the palette, click the Output tab.
 2. Add a Table node to the canvas by clicking Table.
@@ -83,15 +81,19 @@ Evaluate the model performance and visualize the model by using a gain chart.
 10. Connect the Evaluation node to the CHURN golden nugget node by clicking the CHURN golden nugget node.
 11. Click R-CHURN. From the menu that opens, click Run. Review the gain chart. When you're finished, click OK to close the window.
 
+
+![Evaluate model](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx11.gif)
+
+
 ## Summary
 
 You completed the tutorial. Congratulations!
 
 In this tutorial, you completed these tasks:
 
-**1. Inspected a data set for customer churn
-2. Prepared the data set for machine learning
-3. Trained and evaluated a machine-learning model
-4. Displayed a gain chart of the model**
+**1. Inspected a data set for customer churn**
+**2. Prepared the data set for machine learning**
+**3. Trained and evaluated a machine-learning model**
+**4. Displayed a gain chart of the model**
 
 This tutorial scratches the surface of many of the powerful capabilities of IBM SPSS Modeler. 
