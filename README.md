@@ -6,7 +6,7 @@ In this tutorial demo, you use IBM SPSS Modeler to build a machine-learning mode
 
 ## Task 1: Login to IBM Data Science Experience
 
-![](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx1.PNG)
+![Login](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx1.PNG)
 
 ## Task 2: Create project and upload data set
 
@@ -23,6 +23,10 @@ You have a data set with customer data and churn data. The data engineer merged 
 
 ![Inspect](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx5.gif)
 
+![Prepare data](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx6.gif)
+
+dsx5&dsx6merge
+
 1. Click Customers.xlsx. From the menu that opens, click Preview. The first 10 records of the data set are shown.
 2. Scroll to inspect the right part of the data set. The last column, CHURN, contains data about whether a customer churned or not. Click OK to close Preview window.
 3. In the palette, click the Output tab.
@@ -34,8 +38,6 @@ You have a data set with customer data and churn data. The data engineer merged 
 ## Task 4: Prepare the data set
 Get the data set ready for machine learning.
 
-![Prepare data](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx6.gif)
-
 1. In the palette, click the Field Ops tab.
 2. Add the Type node to the canvas by clicking Type.
 3.Connect the Customers.xlsx node to the Type node by clicking Customers.xlsx.
@@ -45,11 +47,11 @@ Get the data set ready for machine learning.
 7. Click CHURN and change the role from Input to Target. The CHURN row is used as the target to predict in your machine-learning model.
 8. Click Apply and then click OK.
 
+![Prepare data](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx7.gif)
+
 ## Task 5: Train the model
 Train a C&R Tree model with your data set.
 
-
-![Train model](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx7.gif)
 
 1. In the palette, click the Modeling tab.
 2. Add the C&R Tree node to the canvas by clicking C&R Tree.
@@ -57,7 +59,7 @@ Train a C&R Tree model with your data set.
 4. Click CHURN. From the menu that opens, click Run. The model is trained and a new CHURN node that looks like a golden nugget is added to the canvas.
 5. Click the CHURN golden nugget node. From the menu that opens, click Edit. Review the model and notice which features are important predictors. When you're finished, click OK to close the window.
 
-## Task 4: Evaluate and visualize the model
+## Task 6: Evaluate and visualize the model
 Evaluate the model performance and visualize the model by using a gain chart.
 
 ![Evaluate model](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx8.gif)
