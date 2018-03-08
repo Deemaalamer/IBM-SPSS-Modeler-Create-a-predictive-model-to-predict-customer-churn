@@ -4,29 +4,44 @@ Get experience with IBM SPSS Modeler by creating a decision-tree machine-learnin
 ### Duration: 15 minutes
 In this tutorial demo, you use IBM SPSS Modeler to build a machine-learning model to predict which customers might leave your service.
 
-## Task 1: Login to IBM Cloud
+## Task 1: Login to IBM Cloud and create Data Science Experince service
 
-1. Create Data Science Experince service
+1. Login to your IBM Cloud account, if you don't have one already you can signup here.
+2. Open the Catalog, click on **Data & Analytics** to refine search.
+3. Scrol down and click on **Data Science Experince** service.
+4. Click on **Create** to create an instance of the service.
+5. Click on **Getting started** to open the tool.
 
-To login visit this link datascience.ibm.com
-![Login](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx1.PNG)
+(gif)
 
-## Task 2: Create project and upload data set
+## Task 2: Create project
 
 Once you have logged you you can go ahead and create a project.
 
-1. Scrol down the page and click on (+) New project icon.
-2. Name your project 'Predict customer churn', then hit Create
+1. Scrol down the page and click on **(+) New project** icon.
+2. Name your project 'Predict customer churn'.
+3. Scroll down, under Define storage click on **Add** to create an IBM Cloud Object Storage instance. The service will open up
 
-![Create project](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx2.gif)
+(gif)
 
-3. Download the data set ![Data set](www.google.com)
-4. Nagivate to the Assests tab, drag the data set file you donload it and drop it in the Load sidebar.
-5. Your data set should be loaded successfully shorty!
+4. Under Spark service click on **Add** to create an IBM Analytics for Apache Spark instance.
+5. Refresh page to make sure services are added.
+
+(gif)
+
+6. Click Create, to finish creating your project.
+
+
+## Task 3: Upload data set
+
+1. Download the data set ![Data set](www.google.com)
+2. In your project page, nagivate to the Assests tab, drag the data set file you downloaded and drop it in the Load sidebar.
+3. Your data set should be loaded successfully shorty!
 
 ![Upload dataset](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx3.gif)
 
-## Task 3: Create SPSS modele
+
+## Task 4: Create SPSS modele
 
 1. Same page as before, scroll down to the Modeler flows.
 2. Hit the (+) New flow icon
