@@ -1,33 +1,31 @@
 # IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn
 Get experience with IBM SPSS Modeler by creating a decision-tree machine-learning model to evaluate the risk that a customer might leave your service. This is a set by step tutorial. Credits to this demo https://www.ibm.com/cloud/garage/demo/try-spss-modeler/
 
-# Duration: 15 minutes
-## Duration: 15 minutes
 ### Duration: 15 minutes
-**Duration: 15 minutes**
-
-<i>kfhjrkgtrljgot</i>
 In this tutorial demo, you use IBM SPSS Modeler to build a machine-learning model to predict which customers might leave your service.
 
-#Task 1: Inspect the data set
+## Task 1: Create project and upload data set
 
-You have a data set with customer data and churn data. The data engineer merged both data sets into one set. The data set is waiting for inspection on the canvas.
+## Task 2: Create SPSS modele
 
-In this task, you inspect the data set by using IBM SPSS Modeler.
+## Task 3: Inspect the data set
 
-    Click Customers.xlsx. From the menu that opens, click Preview. The first 10 records of the data set are shown.
+You have a data set with customer data and churn data. The data engineer merged both data sets into one set. The data set is waiting for inspection on the canvas. In this task, you inspect the data set by using IBM SPSS Modeler.
+<ul>
+<li>1. Click Customers.xlsx. From the menu that opens, click Preview. The first 10 records of the data set are shown.</li>
+<li>Scroll to inspect the right part of the data set. The last column, CHURN, contains data about whether a customer churned or not. Click OK to close Preview window.</li>
 
-    Scroll to inspect the right part of the data set. The last column, CHURN, contains data about whether a customer churned or not. Click OK to close Preview window.
+In the palette, click the Output tab.
 
-    In the palette, click the Output tab.
+Add the Data Audit node to the canvas by clicking Data Audit.
 
-    Add the Data Audit node to the canvas by clicking Data Audit.
+Connect the Data Audit node to the Customers.xlsx node by clicking Customers.xlsx. The Data Audit node is automatically renamed to "17 Fields."
 
-    Connect the Data Audit node to the Customers.xlsx node by clicking Customers.xlsx. The Data Audit node is automatically renamed to "17 Fields."
+Click 17 Fields. From the menu that opens, click Run. You can review key statistics and metrics for the data set.
 
-    Click 17 Fields. From the menu that opens, click Run. You can review key statistics and metrics for the data set.
+Click the Quality tab to review the data set quality. When you're finished, click OK to close the window.
 
-    Click the Quality tab to review the data set quality. When you're finished, click OK to close the window.
+</ul>
 
 Task 2: Prepare the data set
 
