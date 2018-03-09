@@ -6,13 +6,13 @@ In this tutorial demo, you use IBM SPSS Modeler to build a machine-learning mode
 
 ## Task 1: Login to IBM Cloud and create Data Science Experince service
 
-1. Login to your IBM Cloud account, if you don't have one already you can signup here.
-2. Open the Catalog, click on **Data & Analytics** to refine search.
-3. Scrol down and click on **Data Science Experince** service.
+1. Login to your IBM Cloud account, if you don't have one already you can signup here. (link-tracked)
+2. Open the **Catalog**, click on **Data & Analytics** to refine search.
+3. Scroll down and click on **Data Science Experince** service.
 4. Click on **Create** to create an instance of the service.
-5. Click on **Getting started** to open the tool.
+5. Click on **Get started** to open the tool.
 
-(gif)
+![Create DSX](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx1.gif)
 
 ## Task 2: Create project
 
@@ -21,16 +21,11 @@ Once you have logged you you can go ahead and create a project.
 1. Scrol down the page and click on **(+) New project** icon.
 2. Name your project 'Predict customer churn'.
 3. Scroll down, under Define storage click on **Add** to create an IBM Cloud Object Storage instance. The service will open up, choose the **Lite** plan then click **Create**.
-
-(gif)
-
 4. Under Spark service click on **Add** to create an IBM Analytics for Apache Spark instance.The service will open up, choose the **Lite** plan then click **Create**.
 5. Refresh page to make sure services are added.
-
-(gif)
-
 6. Click Create, to finish creating your project.
 
+![Create project](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx12.gif)
 
 ## Task 3: Upload data set
 
@@ -53,15 +48,15 @@ Once you have logged you you can go ahead and create a project.
 You have a data set with customer data and churn data. The data engineer merged both data sets into one set. The data set is waiting for inspection on the canvas. In this task, you inspect the data set by using IBM SPSS Modeler.
 
 1. Drag and drop your data set to the canvas.
-2. Click Customers.xlsx. From the menu that opens, click **Preview**. The first 10 records of the data set are shown.
+2. Click Telco-Customer-Churn.csv. From the menu that opens, click **Preview**. The first 10 records of the data set are shown.
 3. Scroll to inspect the right part of the data set. The last column, CHURN, contains data about whether a customer churned or not. 
 4. Click **OK** to close Preview window.
 
-(gif - dsx5&dsx6merge)
+![Inspect dataset](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx13.gif)
 
 3. In the palette, click the Output tab.
 4. Add the Data Audit node to the canvas by clicking Data Audit.
-5. Connect the Data Audit node to the Customers.xlsx node by clicking Customers.xlsx. The Data Audit node is automatically renamed to "21 Fields."
+5. Connect the Data Audit node to the Telco-Customer-Churn.csv node by clicking Telco-Customer-Churn.csv. The Data Audit node is automatically renamed to "21 Fields."
 6. Click 21 Fields. From the menu that opens, click Run. You can review key statistics and metrics for the data set. When you're finished, click OK to close the window.
 
 ![Add data audit](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/images/dsx7.gif)
@@ -71,7 +66,7 @@ Get the data set ready for machine learning.
 
 1. In the palette, click the **Field Ops** tab.
 2. Add the **Type** node to the canvas by clicking **Type**.
-3. Connect the Customers.xlsx node to the Type node by clicking Customers.xlsx.
+3. Connect the Telco-Customer-Churn.csv node to the Type node by clicking Telco-Customer-Churn.csv.
 4. Click **Type**. From the menu that opens, click **Open**.
 5. In the right side bar, expland **settings**.
 6. Click **Configure types**.
