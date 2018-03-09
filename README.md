@@ -29,7 +29,7 @@ Once you have logged you you can go ahead and create a project.
 
 ## Task 3: Upload data set
 
-1. Download the data set ![Data set](www.google.com)
+1. Download the [data set](https://github.com/Deemaalamer/IBM-SPSS-Modeler-Create-a-predictive-model-to-predict-customer-churn/blob/master/Telco-Customer-Churn.csv)
 2. In your project page, nagivate to the Assests tab, drag the data set file you downloaded and drop it in the Load sidebar.
 3. Your data set should be loaded successfully shorty!
 
